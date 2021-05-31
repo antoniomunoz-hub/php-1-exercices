@@ -1,0 +1,13 @@
+{
+    "name": "antoniomunoz/php-1-exercices",
+    "authors": [
+        {
+            "name": "Antonio Muñoz",
+            "email": "antonio.bjjrga@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
