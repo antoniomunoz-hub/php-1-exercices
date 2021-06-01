@@ -2,24 +2,25 @@
 
 use PHPUnit\Framework\TestCase;
 use function PHPUnit\Framework\assertEquals;
+use function PHPUnit\Framework\assertTrue;
 
 final class OperadoresTest extends TestCase
 {
-    // public function testOperadoresAritmeticos(): void
-    // {
-    //     $result = 7 + 6 * (4 - 2) - 10 ;
-    //     assertEquals(0, $result, '¿Cuál es el resultado de la operación?');
-    // }
+    public function testOperadoresAritmeticos(): void
+    {
+        $result = 7 + 6 * (4 - 2) - 10 ;
+        assertEquals(0, $result, '¿Cuál es el resultado de la operación?');
+    } 
 
-    // public function testConcatenacion(): void
-    // {
-    //     $name = 'Carlos';
-    //     $lastNames = 'Herrera Conejero';
-    //     $result = '';
+    public function testConcatenacion(): void
+    {
+        $name = 'Carlos';
+        $lastNames = 'Herrera Conejero';
+        $result = '';
 
-    //     $expectedResult = 'Herrera Conejero, Carlos';
-    //     assertEquals($expectedResult, $result);
-    // }
+        $expectedResult = 'Herrera Conejero, Carlos';
+        assertEquals($expectedResult, $result);
+    }
 
     // public function testOperadoresBooleanos(): void
     // {
