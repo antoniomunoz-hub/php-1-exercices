@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/lib/session.php';?>
 <html lang="en">
 <?php require 'partial/head.php'; ?>
 
